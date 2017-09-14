@@ -1,0 +1,31 @@
+{
+  "name": "arduino-dreamfactory",
+  "version": "1.0.0",
+  "description": "A flappyBird with Arduino and socket.io",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "johnny-five": "^0.11.6",
+    "node-gyp": "^3.6.2",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjy344/arduino-DreamFactory.git"
+  },
+  "keywords": [
+    "FlappyBird",
+    "Arduino"
+  ],
+  "author": "François-Xavier Bresson et Benjamin Demaiziere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjy344/arduino-DreamFactory/issues"
+  },
+  "homepage": "https://github.com/benjy344/arduino-DreamFactory#readme"
+}
